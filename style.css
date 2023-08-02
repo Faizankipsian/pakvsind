@@ -1,0 +1,107 @@
+body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: -webkit-linear-gradient(left, #9896F0,#FBC8D5);
+}
+.white{
+    background-color: white;
+    height: 250px;
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+.green{
+    background-color: rgb(0, 66, 0);
+    height: 250px;
+    width: 430px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    z-index: -1;
+    border-radius: 20px;
+   
+}
+.moon{
+    background-color: white;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+.moon2{
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    background-color: rgb(0, 66, 0);
+}
+.star{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+}
+.orange{
+    height: 83.3px;
+    width: 430px;
+    background-color: orange;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+.whiteindia{
+    height: 83.3px;
+    width: 430px;
+    background-color: white;
+    position: absolute;
+    top: 233.3px;
+    right: 100px;
+}
+.greenindia{
+    height: 83.3px;
+    width: 430px;
+    background-color: green;
+    position: absolute;
+    top: 316.6px;
+    right: 100px;
+    border-radius: 0px 0px 20px 20px;
+}
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 239.95px;
+    right: 280px;
+}
+
+p{
+    font-size: 26px;
+    color: white;
+    font-style: italic;
+    margin: 7px;
+   position: relative;
+   top: 450px;
+}
+hr{
+    width: 50%;
+    position: relative;
+    top: 450px;
+    border: 0px 0px 2px 0px;
+    border-bottom-color: white;
+}
+.vs{
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: auto;
+    position: relative;
+    top: -120px;
+    color: black
+}
